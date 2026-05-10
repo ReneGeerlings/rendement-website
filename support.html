@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support — Rendement</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="appicon.png">
+</head>
+<body>
+<main>
+  <h1>Support — Rendement</h1>
+  <p class="meta">
+    Laatst bijgewerkt: 8 mei 2026<br>
+    Geldt voor: Rendement (iOS), versie 1.3 en later.
+  </p>
+
+  <p>
+    Loop je tegen iets aan in Rendement? Op deze pagina vind je antwoorden
+    op de meest gestelde vragen. Staat je vraag er niet bij, mail dan
+    gerust.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Mail naar
+    <a href="mailto:geerlings.apps@icloud.com">geerlings.apps@icloud.com</a>.
+    Rendement wordt gemaakt door één persoon, dus je krijgt antwoord van mij
+    persoonlijk. Reactie meestal binnen een paar dagen.
+  </p>
+
+  <h2>Mijn saldi kloppen niet na een import</h2>
+  <p>
+    Eerst een back-up maken via Instellingen → "Maak en deel back-up".
+    Daarna: open de spaarrekening, verwijder 'm en maak 'm opnieuw aan met
+    hetzelfde IBAN. Importeer de meest recente CSV (of PDF) opnieuw — het
+    saldo wordt cumulatief opnieuw berekend en moet dan op de cent
+    overeenkomen met je bank.
+  </p>
+
+  <h2>De ING-CSV-import herkent geen mutaties</h2>
+  <p>
+    Rendement verwacht het ING-CSV-formaat met puntkomma's als
+    scheidingsteken (wat ING standaard gebruikt). Open het bestand in een
+    teksteditor en controleer dat de eerste regel kolomnamen bevat zoals
+    <code>Datum;Naam / Omschrijving;Rekening;…</code>. Werkt het niet? Mail
+    de eerste paar regels van het bestand naar
+    <a href="mailto:geerlings.apps@icloud.com">geerlings.apps@icloud.com</a>.
+  </p>
+
+  <h2>De Revolut-PDF-import vindt geen mutaties</h2>
+  <p>
+    Revolut levert verschillende PDF-formaten af. De parser herkent het
+    standaard transactie-overzicht met datums in "d MMM yyyy"-vorm en
+    bedragen met euro-teken. Eerst proberen: maak een spaarrekening aan met
+    bron "Revolut" en importeer opnieuw. Lukt het niet? Stuur de PDF
+    (zonder gevoelige info eventueel weggevlakt) op.
+  </p>
+
+  <h2>iCloud-sync werkt niet</h2>
+  <p>
+    Controleer in Instellingen → Apple-ID → iCloud of Rendement in de
+    lijst met apps staat en of de schakelaar aan staat. Heb je weinig
+    iCloud-opslag over? Sync stopt dan stilletjes — controleer het in
+    Instellingen.
+  </p>
+
+  <h2>Face ID-vergrendeling werkt niet meer</h2>
+  <p>
+    Bij grote iOS-updates vraagt iOS soms opnieuw toestemming voor Face ID.
+    Open Instellingen → Rendement en zet de Face ID-toegang weer aan. Lukt
+    dat niet, zet in Rendement de vergrendeling uit en weer aan.
+  </p>
+
+  <h2>Hoe maak ik een back-up?</h2>
+  <p>
+    In Rendement: Instellingen → "Maak en deel back-up". Bewaar de JSON op
+    een veilige plek (Bestanden, iCloud Drive, of mail aan jezelf). Bij
+    "Herstel uit back-up" kun je 'm later weer inlezen — alle huidige data
+    wordt dan vervangen.
+  </p>
+
+  <h2>Hoe verwijder ik al mijn gegevens?</h2>
+  <p>
+    Verwijder per record in de detailweergave (cascade-confirm waarschuwt
+    je bij vastgoed of leningen waaronder records hangen).
+  </p>
+  <p>
+    Wil je álles weg, ook uit iCloud? Verwijder de app van je iPhone en ga
+    naar Instellingen → Apple-ID → iCloud → Rendement om de iCloud-data te
+    wissen.
+  </p>
+
+  <h2>Privacy</h2>
+  <p>
+    Voor uitleg over hoe Rendement met je gegevens omgaat, zie de
+    <a href="privacy.html">privacyverklaring</a>.
+  </p>
+
+  <footer>
+    <a href="index.html">Home</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="mailto:geerlings.apps@icloud.com">geerlings.apps@icloud.com</a>
+  </footer>
+</main>
+</body>
+</html>
