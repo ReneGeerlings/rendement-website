@@ -38,23 +38,23 @@
     overeenkomen met je bank.
   </p>
 
-  <h2>De ING-CSV-import herkent geen mutaties</h2>
+  <h2>De CSV-import herkent geen mutaties</h2>
   <p>
-    Rendement verwacht het ING-CSV-formaat met puntkomma's als
-    scheidingsteken (wat ING standaard gebruikt). Open het bestand in een
-    teksteditor en controleer dat de eerste regel kolomnamen bevat zoals
-    <code>Datum;Naam / Omschrijving;Rekening;…</code>. Werkt het niet? Mail
-    de eerste paar regels van het bestand naar
+    Rendement verwacht een CSV-bestand met puntkomma's (<code>;</code>) als
+    scheidingsteken — het formaat dat veel Nederlandse banken aanleveren.
+    Open het bestand in een teksteditor en controleer dat de eerste regel
+    kolomnamen bevat (datum, omschrijving, bedrag enzovoort). Werkt het
+    niet? Mail de eerste paar regels van het bestand naar
     <a href="mailto:geerlings.apps@icloud.com">geerlings.apps@icloud.com</a>.
   </p>
 
-  <h2>De Revolut-PDF-import vindt geen mutaties</h2>
+  <h2>De PDF-import vindt geen mutaties</h2>
   <p>
-    Revolut levert verschillende PDF-formaten af. De parser herkent het
-    standaard transactie-overzicht met datums in "d MMM yyyy"-vorm en
-    bedragen met euro-teken. Eerst proberen: maak een spaarrekening aan met
-    bron "Revolut" en importeer opnieuw. Lukt het niet? Stuur de PDF
-    (zonder gevoelige info eventueel weggevlakt) op.
+    PDF-afschriften verschillen sterk per bank. De parser herkent
+    transactie-overzichten met datums in <code>d MMM yyyy</code>-vorm en
+    bedragen met euro-teken. Eerst proberen: maak een spaarrekening aan
+    met de juiste bron en importeer opnieuw. Lukt het niet? Stuur de PDF
+    (gevoelige info eventueel weggevlakt) op.
   </p>
 
   <h2>iCloud-sync werkt niet</h2>
